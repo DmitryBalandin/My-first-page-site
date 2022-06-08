@@ -58,3 +58,13 @@ h2 {
 
     text-align: center;
 }
+
+h2::before{
+    margin-right: 45px;
+    content: url(./image/Rectangle\ 6.png);
+}
+
+h2::after{
+    margin-left: 45px;
+    content: url(./image/Rectangle\ 7.png);
+}
