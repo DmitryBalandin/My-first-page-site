@@ -1,0 +1,60 @@
+.button {
+    font-family: 'Proxima Nova';
+
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    background: rgba(1, 138, 190, 1);
+    padding: 9px 15px;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    text-align: center;
+    max-width: 587px;
+    display: block;
+    margin: auto;
+
+
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+
+    text-align: center;
+
+
+    color: #FFFFFF;
+}
+
+.header-list::before {
+    margin-right: 66px;
+    content: url(./image/Rectangle\ 3.png);
+
+}
+
+.header-list::after {
+    margin-left: 66px;
+    content: url(./image/Rectangle\ 5.png);
+}
+
+h2 {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+
+
+    text-align: center;
+}

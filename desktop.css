@@ -1,0 +1,12 @@
+body{
+    background: rgba(22, 40, 49, 1);  
+}
+.desktop{
+    max-width: 1920px;
+    background: rgba(22, 40, 49, 1);
+    margin: 0 auto;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    
+}
