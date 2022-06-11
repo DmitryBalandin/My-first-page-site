@@ -3,6 +3,8 @@
 @import url(./button-h.css);
 @import url(./header.css);
 @import url(./session.css);
+@import url(./reviews.css);
+@import url(./slide.css);
 @font-face{
     font-family:"Proxima Nova";
     src: url(./fonts/proximanova_regular.ttf);
