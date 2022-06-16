@@ -1,0 +1,81 @@
+.price {
+    margin: 0 auto;
+}
+
+.price h2 {
+    margin-bottom: 100px;
+}
+
+.price__container {
+    max-width: 1076px;
+    margin: 0 auto;
+
+}
+
+.price__table {}
+
+.table {
+    border-collapse: separate;
+    border-spacing:29px 23px ;
+    
+}
+
+.table__title-servise {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    width: 268px;   
+}
+
+.table__title-servise::before{
+    margin-right: 20px;
+    content: url(./image/Rectangle\ 27.png);
+}
+
+.table__prise-servise {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: right;
+    width: 87px;
+
+}
+.price__page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.price__certifecate {
+    
+}
+
+.price__image {
+    max-width: 526px;
+    max-height: 396px;
+    margin-bottom: 30px;
+}
+
+.price__image img {
+    border-radius: 10px;
+    object-fit: fill;
+    max-width: 100%;
+    min-width: 300px;
+}
+
+.price__name-image {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+
+
+    text-align: center;
+
+}

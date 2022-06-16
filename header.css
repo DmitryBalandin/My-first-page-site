@@ -57,10 +57,14 @@
     
     min-height: 600px;
     background-size: 100% 100%;
+    
     padding-top: 136px;
     border-radius:10px;
     overflow: hidden;
     margin-bottom: 150px;
+
+ 
+
 }
 
 .header__image h3{

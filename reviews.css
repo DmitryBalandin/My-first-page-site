@@ -40,8 +40,17 @@
 
 .reviews__list-radiobutton {
     display: flex;
-    justify-content: center;
+    width: 132px;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 150px;
 
+}
+.reviews__list-radiobutton input{
+    position: fixed;
+    display: none;
+    top: -1000px;
+    left: -1000px;
 }
 
 .revies__radio {
@@ -53,8 +62,8 @@
     
 }
 
-/* label{
-    background: url(./image/Rectangle\ 21.png);
-} */
 
-.revies__radio_active {}
+
+.revies__radio_active {
+    opacity: 1;
+}

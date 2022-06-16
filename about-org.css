@@ -1,0 +1,72 @@
+.about-org {}
+
+.about-org__container h2 {
+    margin-bottom: 100px;
+}
+
+.about-org__container {
+    max-width: 1076px;
+    margin: auto;
+}
+
+.abour-org__arcticle {}
+
+.arctle {
+    display: grid;
+    /* grid-template-columns:526px 526px; */
+    grid-template: auto/repeat(auto-fill,minmax(360px, 1fr));
+    /* grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+    grid-template-rows: 1fr 1fr; */
+    row-gap: 100px;
+    column-gap: 24px;
+    margin-bottom: 150px;
+}
+
+.arctle .article__area:first-child{
+    padding-right: 60px;
+}
+.arctle .article__area:last-child{
+    padding-left: 60px;
+}
+
+.article__area {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.article__name {
+
+    font-family: Proxima Nova;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+.article__text {
+
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+} 
+
+.article__text p {
+    margin-bottom: 24px;
+}
+
+.article__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+
+
+}
